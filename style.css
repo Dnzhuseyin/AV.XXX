@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100px;
+    padding: 60px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    padding-left: 20px;
+}
+
+.menu li a {
+    margin-left: 30px;
+    color: #250b0b;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.icon {
+    display: block;
+    margin-left: 650px;
+}
+
+.anasayfa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.aciklam img {
+    width: 550px;
+    height: 500px;
+}
